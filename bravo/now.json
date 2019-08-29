@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "pool-bravo",
+  "alias": [
+    "bravo-pool.cryptocatalyst.net"
+  ],
+  "builds": [
+    {
+      "src": "**",
+      "use": "@now/static"
+    }
+  ]
+}

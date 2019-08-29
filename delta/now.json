@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "pool-delta",
+  "alias": [
+    "delta-pool.cryptocatalyst.net"
+  ],
+  "builds": [
+    {
+      "src": "**",
+      "use": "@now/static"
+    }
+  ]
+}

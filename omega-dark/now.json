@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "omega-pool",
+  "alias": [
+    "omega-pool.cryptocatalyst.net"
+  ],
+  "builds": [
+    {
+      "src": "**",
+      "use": "@now/static"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "pool-alpha",
+  "alias": [
+    "alpha-pool.cryptocatalyst.net"
+  ],
+  "builds": [
+    {
+      "src": "**",
+      "use": "@now/static"
+    }
+  ]
+}
