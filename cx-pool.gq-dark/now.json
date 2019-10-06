@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "cx-pool",
+  "alias": [
+    "cx-pool.gq"
+  ],
+  "builds": [
+    {
+      "src": "**",
+      "use": "@now/static"
+    }
+  ]
+}

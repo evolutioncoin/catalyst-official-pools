@@ -1,4 +1,4 @@
-var api = 'https://cxex.catalystcrypto.net/cxex-explorer';
+var api = 'https://zeta.cryptocatalyst.net/explorer';
 
 var donationAddress = "";
 var blockTargetInterval = 60;

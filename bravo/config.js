@@ -7,8 +7,8 @@ var discord = "https://discord.gg/byKYDyb";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR"];
 
-var blockchainExplorer = "https://www.cx-explorer.gq/index.html?hash={id}#blockchain_block";
-var transactionExplorer = "https://www.cx-explorer.gq/index.html?hash={id}#blockchain_transaction";
+var blockchainExplorer = "https://explorer.cryptocatalyst.net/index.html?hash={id}#blockchain_block";
+var transactionExplorer = "https://explorer.cryptocatalyst.net/index.html?hash={id}#blockchain_transaction";
 
 
 var blockchainExplorerMerged = "http://explorer.bitcoinmono.io/?hash={id}#blockchain_block";

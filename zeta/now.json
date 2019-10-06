@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "zeta-pool",
+  "alias": [
+    "zeta-pool.cryptocatalyst.net"
+  ],
+  "builds": [
+    {
+      "src": "**",
+      "use": "@now/static"
+    }
+  ]
+}

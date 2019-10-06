@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "btcmz-cx",
+  "alias": [
+    "btcmz.cx-pool.gq"
+  ],
+  "builds": [
+    {
+      "src": "**",
+      "use": "@now/static"
+    }
+  ]
+}
