@@ -151,11 +151,13 @@ var lazyRefreshChart = debounce(displayChart, 50, true);
 // $.getJSON(poolListUrl, function (data, textStatus, jqXHR) {
   // poolList = data;
   poolList = [
-    ["alpha","https://alpha.cryptocatalyst.net/cat","alpha","1"],
-    ["delta","https://delta.cryptocatalyst.net/cat","delta","1"],
-    ["omega","https://omega.cryptocatalyst.net/cat","omega","1"],
-    ["zeta","https://zeta.cryptocatalyst.net/cat","zeta","1"],
-    ["bravo","https://bravo.cryptocatalyst.net/cat","bravo","1"],
+    ["spookypool","https://spookypool.nl:8518","spookypool","1"],
+    ["wellgitu","http://pool.wellgitu.xyz/capi","wellgitu","1"],
+    ["charlie","https://charlie.cryptocatalyst.net/cat","charlie","1"],
+    ["pubnodes","https://pool.cx.pubnodes.com/api","pubnodes","1"],
+    ["omega","https://omega.cryptocatalyst.net/mono","omega","1"],
+    ["cx-pool","https://pool.cx-pool.gq/mono","cx-pool","1"],
+    ["semipool","https://webcx.semipool.com/api/pool","semipool","1"],
   ];
 
   poolList.forEach(function (element) {
